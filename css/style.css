@@ -113,18 +113,16 @@ p{
     position: relative;
     width: 100vw;
     max-width: 100%;
-    min-height: 85vh;
+    min-height: 100vh;
     box-sizing: border-box;
     padding: 10vw 20vh;
     color: rgb(255, 255, 255);
     background: var(--clr-dark);
-    z-index: -50;
+    z-index: 50;
 }
 
 .components-container{
     z-index: -100;
-    height: auto;
-    min-height: 100%;
 }
 
 .navbar__section {
